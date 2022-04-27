@@ -1,0 +1,19 @@
+.msg{
+   width: 60%;
+   height: 80%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+   box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   border: 2px solid #ddd;
+}
+
+@media screen and (max-width: 900px){
+   .msg{
+      width: 95%;
+   }
+}

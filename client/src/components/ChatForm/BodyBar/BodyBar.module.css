@@ -1,0 +1,18 @@
+.msg_chat::-webkit-scrollbar {
+  width: 6px;
+}
+
+.msg_chat::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+.msg_chat::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+
+.msg_chat{
+   flex: 1;
+   padding: .5rem;
+   width: 100%;
+   overflow: auto;
+}

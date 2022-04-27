@@ -1,0 +1,18 @@
+.msg_header{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   border-bottom: 2px solid #dddd;
+   background-color: #eee;
+   color: #666;
+   border-radius: 5px;
+   padding: .6rem;
+}
+
+.msg_header_title span svg{
+   margin-right: .4rem;
+}
+
+.msg_header_title span{
+   font-size: 1.3rem;
+}
